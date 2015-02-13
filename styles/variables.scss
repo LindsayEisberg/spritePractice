@@ -1,0 +1,6 @@
+@mixin play($play) {
+  -webkit-animation:$play;
+  animation:$play;
+  -moz-animation:$play;
+  -o-animation:$play;
+}

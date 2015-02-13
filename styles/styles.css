@@ -1,0 +1,191 @@
+/*SUB ZERO STANCE*/
+.subZeroStance, .subZeroAltStance, .subZeroVictory, .subZeroWalk, .subZeroDuck, .subZeroJump, .subZeroPunch, .subZeroKick, .subZeroBlock, .subZeroGetHit, .subZeroFallGetUp, .subZeroDizzy, .subZeroFinished {
+  /*    margin-top:30%;*/
+  /*  margin: 25% auto;*/
+  width: 99px;
+  height: 154px;
+  background-image: url("../mKSprites/subZeroStance.png");
+  transition: all 2s ease;
+  -webkit-animation: play .6s steps(12) infinite;
+  animation: play .6s steps(12) infinite;
+  -moz-animation: play .6s steps(12) infinite;
+  -o-animation: play .6s steps(12) infinite; }
+  .subZeroStance .subZeroStance:hover, .subZeroAltStance .subZeroStance:hover, .subZeroVictory .subZeroStance:hover, .subZeroWalk .subZeroStance:hover, .subZeroDuck .subZeroStance:hover, .subZeroJump .subZeroStance:hover, .subZeroPunch .subZeroStance:hover, .subZeroKick .subZeroStance:hover, .subZeroBlock .subZeroStance:hover, .subZeroGetHit .subZeroStance:hover, .subZeroFallGetUp .subZeroStance:hover, .subZeroDizzy .subZeroStance:hover, .subZeroFinished .subZeroStance:hover, .subZeroStance .subZeroAltStance:hover, .subZeroAltStance .subZeroAltStance:hover, .subZeroVictory .subZeroAltStance:hover, .subZeroWalk .subZeroAltStance:hover, .subZeroDuck .subZeroAltStance:hover, .subZeroJump .subZeroAltStance:hover, .subZeroPunch .subZeroAltStance:hover, .subZeroKick .subZeroAltStance:hover, .subZeroBlock .subZeroAltStance:hover, .subZeroGetHit .subZeroAltStance:hover, .subZeroFallGetUp .subZeroAltStance:hover, .subZeroDizzy .subZeroAltStance:hover, .subZeroFinished .subZeroAltStance:hover, .subZeroStance .subZeroVictory:hover, .subZeroAltStance .subZeroVictory:hover, .subZeroVictory .subZeroVictory:hover, .subZeroWalk .subZeroVictory:hover, .subZeroDuck .subZeroVictory:hover, .subZeroJump .subZeroVictory:hover, .subZeroPunch .subZeroVictory:hover, .subZeroKick .subZeroVictory:hover, .subZeroBlock .subZeroVictory:hover, .subZeroGetHit .subZeroVictory:hover, .subZeroFallGetUp .subZeroVictory:hover, .subZeroDizzy .subZeroVictory:hover, .subZeroFinished .subZeroVictory:hover, .subZeroStance .subZeroWalk:hover, .subZeroAltStance .subZeroWalk:hover, .subZeroVictory .subZeroWalk:hover, .subZeroWalk .subZeroWalk:hover, .subZeroDuck .subZeroWalk:hover, .subZeroJump .subZeroWalk:hover, .subZeroPunch .subZeroWalk:hover, .subZeroKick .subZeroWalk:hover, .subZeroBlock .subZeroWalk:hover, .subZeroGetHit .subZeroWalk:hover, .subZeroFallGetUp .subZeroWalk:hover, .subZeroDizzy .subZeroWalk:hover, .subZeroFinished .subZeroWalk:hover, .subZeroStance .subZeroDuck:hover, .subZeroAltStance .subZeroDuck:hover, .subZeroVictory .subZeroDuck:hover, .subZeroWalk .subZeroDuck:hover, .subZeroDuck .subZeroDuck:hover, .subZeroJump .subZeroDuck:hover, .subZeroPunch .subZeroDuck:hover, .subZeroKick .subZeroDuck:hover, .subZeroBlock .subZeroDuck:hover, .subZeroGetHit .subZeroDuck:hover, .subZeroFallGetUp .subZeroDuck:hover, .subZeroDizzy .subZeroDuck:hover, .subZeroFinished .subZeroDuck:hover, .subZeroStance .subZeroJump:hover, .subZeroAltStance .subZeroJump:hover, .subZeroVictory .subZeroJump:hover, .subZeroWalk .subZeroJump:hover, .subZeroDuck .subZeroJump:hover, .subZeroJump .subZeroJump:hover, .subZeroPunch .subZeroJump:hover, .subZeroKick .subZeroJump:hover, .subZeroBlock .subZeroJump:hover, .subZeroGetHit .subZeroJump:hover, .subZeroFallGetUp .subZeroJump:hover, .subZeroDizzy .subZeroJump:hover, .subZeroFinished .subZeroJump:hover, .subZeroStance .subZeroPunch:hover, .subZeroAltStance .subZeroPunch:hover, .subZeroVictory .subZeroPunch:hover, .subZeroWalk .subZeroPunch:hover, .subZeroDuck .subZeroPunch:hover, .subZeroJump .subZeroPunch:hover, .subZeroPunch .subZeroPunch:hover, .subZeroKick .subZeroPunch:hover, .subZeroBlock .subZeroPunch:hover, .subZeroGetHit .subZeroPunch:hover, .subZeroFallGetUp .subZeroPunch:hover, .subZeroDizzy .subZeroPunch:hover, .subZeroFinished .subZeroPunch:hover, .subZeroStance .subZeroKick:hover, .subZeroAltStance .subZeroKick:hover, .subZeroVictory .subZeroKick:hover, .subZeroWalk .subZeroKick:hover, .subZeroDuck .subZeroKick:hover, .subZeroJump .subZeroKick:hover, .subZeroPunch .subZeroKick:hover, .subZeroKick .subZeroKick:hover, .subZeroBlock .subZeroKick:hover, .subZeroGetHit .subZeroKick:hover, .subZeroFallGetUp .subZeroKick:hover, .subZeroDizzy .subZeroKick:hover, .subZeroFinished .subZeroKick:hover, .subZeroStance .subZeroBlock:hover, .subZeroAltStance .subZeroBlock:hover, .subZeroVictory .subZeroBlock:hover, .subZeroWalk .subZeroBlock:hover, .subZeroDuck .subZeroBlock:hover, .subZeroJump .subZeroBlock:hover, .subZeroPunch .subZeroBlock:hover, .subZeroKick .subZeroBlock:hover, .subZeroBlock .subZeroBlock:hover, .subZeroGetHit .subZeroBlock:hover, .subZeroFallGetUp .subZeroBlock:hover, .subZeroDizzy .subZeroBlock:hover, .subZeroFinished .subZeroBlock:hover, .subZeroStance .subZeroGetHit:hover, .subZeroAltStance .subZeroGetHit:hover, .subZeroVictory .subZeroGetHit:hover, .subZeroWalk .subZeroGetHit:hover, .subZeroDuck .subZeroGetHit:hover, .subZeroJump .subZeroGetHit:hover, .subZeroPunch .subZeroGetHit:hover, .subZeroKick .subZeroGetHit:hover, .subZeroBlock .subZeroGetHit:hover, .subZeroGetHit .subZeroGetHit:hover, .subZeroFallGetUp .subZeroGetHit:hover, .subZeroDizzy .subZeroGetHit:hover, .subZeroFinished .subZeroGetHit:hover, .subZeroStance .subZeroFallGetUp:hover, .subZeroAltStance .subZeroFallGetUp:hover, .subZeroVictory .subZeroFallGetUp:hover, .subZeroWalk .subZeroFallGetUp:hover, .subZeroDuck .subZeroFallGetUp:hover, .subZeroJump .subZeroFallGetUp:hover, .subZeroPunch .subZeroFallGetUp:hover, .subZeroKick .subZeroFallGetUp:hover, .subZeroBlock .subZeroFallGetUp:hover, .subZeroGetHit .subZeroFallGetUp:hover, .subZeroFallGetUp .subZeroFallGetUp:hover, .subZeroDizzy .subZeroFallGetUp:hover, .subZeroFinished .subZeroFallGetUp:hover, .subZeroStance .subZeroDizzy:hover, .subZeroAltStance .subZeroDizzy:hover, .subZeroVictory .subZeroDizzy:hover, .subZeroWalk .subZeroDizzy:hover, .subZeroDuck .subZeroDizzy:hover, .subZeroJump .subZeroDizzy:hover, .subZeroPunch .subZeroDizzy:hover, .subZeroKick .subZeroDizzy:hover, .subZeroBlock .subZeroDizzy:hover, .subZeroGetHit .subZeroDizzy:hover, .subZeroFallGetUp .subZeroDizzy:hover, .subZeroDizzy .subZeroDizzy:hover, .subZeroFinished .subZeroDizzy:hover, .subZeroStance .subZeroFinished:hover, .subZeroAltStance .subZeroFinished:hover, .subZeroVictory .subZeroFinished:hover, .subZeroWalk .subZeroFinished:hover, .subZeroDuck .subZeroFinished:hover, .subZeroJump .subZeroFinished:hover, .subZeroPunch .subZeroFinished:hover, .subZeroKick .subZeroFinished:hover, .subZeroBlock .subZeroFinished:hover, .subZeroGetHit .subZeroFinished:hover, .subZeroFallGetUp .subZeroFinished:hover, .subZeroDizzy .subZeroFinished:hover, .subZeroFinished .subZeroFinished:hover {
+    transform: translateX(500px); }
+
+.subZeroAltStance {
+  background-image: url("../mKSprites/subZeroAltStance.png");
+  -webkit-animation: play2 .6s steps(7) infinite;
+  animation: play2 .6s steps(7) infinite;
+  -moz-animation: play2 .6s steps(7) infinite;
+  -o-animation: play2 .6s steps(7) infinite; }
+
+.subZeroVictory {
+  background-image: url("../mKSprites/subZeroVictory.png");
+  -webkit-animation: play3 1s steps(4) infinite;
+  animation: play3 1s steps(4) infinite;
+  -moz-animation: play3 1s steps(4) infinite;
+  -o-animation: play3 1s steps(4) infinite; }
+
+.subZeroWalk {
+  background-image: url("../mKSprites/subZeroWalk.png");
+  -webkit-animation: play4 .8s steps(9) infinite;
+  animation: play4 .8s steps(9) infinite;
+  -moz-animation: play4 .8s steps(9) infinite;
+  -o-animation: play4 .8s steps(9) infinite; }
+
+.subZeroDuck {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play5 .7s steps(3) infinite;
+  animation: play5 .7s steps(3) infinite;
+  -moz-animation: play5 .7s steps(3) infinite;
+  -o-animation: play5 .7s steps(3) infinite; }
+
+.subZeroJump {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play6 .7s steps(3) infinite;
+  animation: play6 .7s steps(3) infinite;
+  -moz-animation: play6 .7s steps(3) infinite;
+  -o-animation: play6 .7s steps(3) infinite; }
+
+.subZeroPunch {
+  width: 129px;
+  height: 154px;
+  background-image: url("../mKSprites/subZeroPunch.png");
+  -webkit-animation: play8 .7s steps(9) infinite;
+  animation: play8 .7s steps(9) infinite;
+  -moz-animation: play8 .7s steps(9) infinite;
+  -o-animation: play8 .7s steps(9) infinite; }
+
+.subZeroKick {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play9 .7s steps(3) infinite;
+  animation: play9 .7s steps(3) infinite;
+  -moz-animation: play9 .7s steps(3) infinite;
+  -o-animation: play9 .7s steps(3) infinite; }
+
+.subZeroBlock {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play10 .7s steps(3) infinite;
+  animation: play10 .7s steps(3) infinite;
+  -moz-animation: play10 .7s steps(3) infinite;
+  -o-animation: play10 .7s steps(3) infinite; }
+
+.subZeroGetHit {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play11 .7s steps(3) infinite;
+  animation: play11 .7s steps(3) infinite;
+  -moz-animation: play11 .7s steps(3) infinite;
+  -o-animation: play11 .7s steps(3) infinite; }
+
+.subZeroFallGetUp {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play12 .7s steps(3) infinite;
+  animation: play12 .7s steps(3) infinite;
+  -moz-animation: play12 .7s steps(3) infinite;
+  -o-animation: play12 .7s steps(3) infinite; }
+
+.subZeroDizzy {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play13 .7s steps(3) infinite;
+  animation: play13 .7s steps(3) infinite;
+  -moz-animation: play13 .7s steps(3) infinite;
+  -o-animation: play13 .7s steps(3) infinite; }
+
+.subZeroFinished {
+  background-image: url("../mKSprites/subZeroDuck.png");
+  -webkit-animation: play14 .7s steps(3) infinite;
+  animation: play14 .7s steps(3) infinite;
+  -moz-animation: play14 .7s steps(3) infinite;
+  -o-animation: play14 .7s steps(3) infinite; }
+
+@-webkit-keyframes play {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 1188px; } }
+
+@-webkit-keyframes play2 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 693px; } }
+
+@-webkit-keyframes play3 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 396px; } }
+
+@-webkit-keyframes play4 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 891px; } }
+
+@-webkit-keyframes play5 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play6 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play8 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 1152px; } }
+
+@-webkit-keyframes play9 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play10 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play11 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play12 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play13 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }
+
+@-webkit-keyframes play14 {
+  from {
+    background-position: 0px; }
+
+  to {
+    background-position: 297px; } }

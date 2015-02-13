@@ -1,0 +1,109 @@
+/*SUB ZERO STANCE*/
+
+.subZeroStance {
+/*    margin-top:30%;*/
+  /*  margin: 25% auto;*/
+    width: 99px;
+    height: 154px;
+    background-image: url("../mKSprites/subZeroStance.png");
+    transition: all 2s ease;
+    @include play (play .6s steps(12) infinite);
+    .subZeroStance:hover {
+        transform: translateX(500px);
+    }
+}
+
+
+
+
+//SUB ZERO ALT STANCE//
+
+.subZeroAltStance {
+    @extend .subZeroStance;
+    background-image: url("../mKSprites/subZeroAltStance.png");
+    @include play (play2 .6s steps(7) infinite);
+}
+
+//subZeroVictory
+
+.subZeroVictory {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroVictory.png");
+  @include play (play3 1s steps(4) infinite);
+
+}
+//SUB ZERO WALK
+
+.subZeroWalk {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroWalk.png");
+  @include play (play4 .8s steps(9) infinite);
+}
+
+//sub zero duck
+.subZeroDuck {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play5 .7s steps(3) infinite);
+
+}
+
+//sub zero jump
+.subZeroJump {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play6 .7s steps(3) infinite);
+
+}
+
+//sub zero punch
+.subZeroPunch {
+  @extend .subZeroStance;
+  width: 129px;
+  height: 154px;
+  background-image: url("../mKSprites/subZeroPunch.png");
+  @include play (play8 1s steps(9) infinite);
+
+}
+//sub zero kick
+.subZeroKick {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play9 .7s steps(3) infinite);
+
+}
+//sub zero block
+.subZeroBlock {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play10 .7s steps(3) infinite);
+
+}
+//sub zero being hit
+.subZeroGetHit {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play11 .7s steps(3) infinite);
+
+}
+//sub zero fall & get up
+.subZeroFallGetUp {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play12 .7s steps(3) infinite);
+
+}
+//sub zero dizzy
+.subZeroDizzy {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play13 .7s steps(3) infinite);
+
+}
+//sub zero finished
+.subZeroFinished {
+  @extend .subZeroStance;
+  background-image: url("../mKSprites/subZeroDuck.png");
+  @include play (play14 .7s steps(3) infinite);
+
+}
